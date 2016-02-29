@@ -1,0 +1,127 @@
+/*Custom Style*/
+
+/**
+ * iconfont.cn fonts
+ */
+ @font-face {font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot'); /* IE9*/
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont.svg#uxiconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont, .iconfont-16{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.iconfont-24{
+    color:#eee;
+    font-family:"iconfont" !important;
+    font-size:22px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+.post-share a:hover{
+    background:#aaa;
+}
+
+
+.skill-set{
+    width:80%;
+    clear:both;
+    padding:12px 0;
+    font-size:0.7em;
+    line-height:1.2em;
+    color:#000;
+    
+}
+.skill-set p{
+    padding:4px;
+    margin:0 -40px 0 0;
+    display:block;
+    background:#5ec2a9;
+    float:left;
+    font-family:sans-serif;
+
+}
+.skill-set span{
+    display:block;
+    float:left;
+    padding: 4px;
+}
+.post-content img {
+    display: block;
+    padding:8px 0;
+    max-width: 100%;
+    height: auto;
+    
+    /* Centers an image by (1) pushing its left edge to the
+       center of its container and (2) shifting the entire image
+       in the opposite direction by half its own width.
+       Works for images that are larger than their containers. */
+    position: relative;
+    
+    cursor:pointer;
+}
+.post-content{
+    line-height:1.3em;
+}
+.post-img-big{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.95);
+    display:none;
+    position:fixed;
+    top:0;
+    z-index:99999;
+    opacity:0;
+    animation:screen-ani 0.25s linear;
+    animation-fill-mode:forwards;
+    -webkit-opacity:0;
+    -webkit-animation:screen-ani 0.25s linear;
+    -webkit-animation-fill-mode:forwards;
+    -moz-opacity:0;
+    -moz-animation:screen-ani 0.25s linear;
+    -moz-animation-fill-mode:forwards;
+}
+@keyframes screen-ani{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+@-webkit-keyframes screen-ani{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+@-moz-keyframes screen-ani{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+.post-img-big img{
+    max-width:90%;
+    height:auto;
+    max-height:90%;
+    margin: auto;  
+    position: absolute;  
+    top: 0; left: 0; bottom: 0; right: 0; 
+    border-radius:10px;
+    cursor:pointer;
+}
+.ds-powered-by {
+    display:none;
+}
+.fluid-width-video-wrapper iframe {
+    margin: 0;
+}
+

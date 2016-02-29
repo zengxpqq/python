@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="dafe446e-9c0f-4827-8f8b-fbaa4e3028ab" kpf_version="5" name="MyProject.komodoproject">
+<preference-set idref="dafe446e-9c0f-4827-8f8b-fbaa4e3028ab" id="project" preftype="project">
+  <string relative="path" id="import_dirname"></string>
+  <string id="userEnvironmentStartupOverride">bcommunication=/sw/ple/studio/lib
+</string>
+</preference-set>
+</project>

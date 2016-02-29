@@ -1,0 +1,465 @@
+爬虫内容:
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>论坛 -  Powered by Discuz!</title>
+
+<meta name="keywords" content="论坛" />
+<meta name="description" content="论坛 " />
+<meta name="generator" content="Discuz! X3.2" />
+<meta name="author" content="Discuz! Team and Comsenz UI Team" />
+<meta name="copyright" content="2001-2013 Comsenz Inc." />
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<base href="http://bbs.xm.base-fx.com/" /><link rel="stylesheet" type="text/css" href="data/cache/style_11_common.css?Pzl" /><link rel="stylesheet" type="text/css" href="data/cache/style_11_forum_index.css?Pzl" /><script type="text/javascript">var STYLEID = '11', STATICURL = 'static/', IMGDIR = 'static/image/common', VERHASH = 'Pzl', charset = 'utf-8', discuz_uid = '0', cookiepre = 'A0Nj_2132_', cookiedomain = '', cookiepath = '/', showusercard = '1', attackevasive = '0', disallowfloat = 'newthread', creditnotice = '1|威望|,2|金钱|,3|贡献|', defaultstyle = '', REPORTURL = 'aHR0cDovL2Jicy54bS5iYXNlLWZ4LmNvbS9mb3J1bS5waHA=', SITEURL = 'http://bbs.xm.base-fx.com/', JSPATH = 'static/js/', CSSPATH = 'data/cache/style_', DYNAMICURL = '';</script>
+<script src="static/js/common.js?Pzl" type="text/javascript"></script>
+<meta name="application-name" content="Base-Fx 厦门" />
+<meta name="msapplication-tooltip" content="Base-Fx 厦门" />
+<meta name="msapplication-task" content="name=门户;action-uri=http://bbs.xm.base-fx.com/portal.php;icon-uri=http://bbs.xm.base-fx.com/static/image/common/portal.ico" /><meta name="msapplication-task" content="name=论坛;action-uri=http://bbs.xm.base-fx.com/forum.php;icon-uri=http://bbs.xm.base-fx.com/static/image/common/bbs.ico" />
+<link rel="archives" title="Base-Fx 厦门" href="http://bbs.xm.base-fx.com/archiver/" />
+<link rel="stylesheet" id="css_widthauto" type="text/css" href="data/cache/style_11_widthauto.css?Pzl" />
+<script type="text/javascript">HTMLNODE.className += ' widthauto'</script>
+<script src="static/js/forum.js?Pzl" type="text/javascript"></script>
+     <script src="template/dean_glider_141025/deancss/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+        var jq=jQuery.noConflict();
+    </script>
+    <script src="template/dean_glider_141025/deancss/jquery.luara.0.0.1.min.js" type="text/javascript"></script>
+<script src="template/dean_glider_141025/deancss/jquery.hoverdir.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+function killErrors() {
+return true;
+}
+window.onerror = killErrors;
+</script>
+</head>
+
+<body id="nv_forum" class="pg_index" onkeydown="if(event.keyCode==27) return false;">
+<div id="append_parent"></div><div id="ajaxwaitid"></div>
+<div id="toptb" class="cl">
+<div class="wp w1200">
+<div class="z"><a href="javascript:;"  onclick="setHomepage('http://172.16.32.110/');">设为首页</a><a href="http://172.16.32.110/"  onclick="addFavorite(this.href, 'Base-Fx 厦门');return false;">收藏本站</a></div>
+<div class="y">
+<div class="deandl">
+                    <style type="text/css">
+.deanlogin .pipe{ display:none;} 
+.deanlogin dl a{ padding:0;}
+</style>
+<div class="deanlogin">                 
+            <style tpye="text/css">
+    	.deandl{position: relative;height: 60px;line-height: 40px!important;float: right;}
+.deandl a.denglu{width:104px;height: 60px;line-height: 40px!important;padding: 0 10px 0 10px!important;z-index:120;cursor: pointer; display:block;}
+.deantouxiang{padding-top: 5px;height: 40px; display:block; float:left;}
+.deanzhanghu{display:block; float:left; margin-left: 10px;font-size: 14px;color: #4e5e6a;text-decoration: none;max-width: 75px;_width: 50px;overflow: hidden;-webkit-transition: all 0s ease;-moz-transition: all 0s ease;transition: all 0s ease;}
+.deandl a.denglu i{float: left;margin-left: 5px;width: 10px;height: 6px;background: url(./template/dean_glider_141025/deancss/com-sprite2.png) -140px -50px;margin-top: 17px;}
+.deandl a.denglu:hover{background: #fff;}
+.deandl a.denglu:hover .deanzhanghu{ color:#666;}
+.deandl a.denglu:hover i{background-position: -100px -50px;}
+.deandl .deanul{ width: 109px;position: absolute;top: 40px;right: -1px;padding: 0 10px 0 4px;z-index: 190;border-top: 0;background: #fff; display:none;border: 1px solid #eee;}
+.deandl .deanul ul li{border-bottom: solid 1px #E5E5E5;height: 28px;line-height: 28px;padding: 5px 0; width:74px;}
+.deandl .deanul ul li a{color: #4b4b4b;display: block;font-size: 12px;text-decoration: none; height:28px!important; line-height:28px!important; padding-left:20px!important;}
+.deanqq{margin-top: 6px;margin-left: 10px;margin-right: 8px;border-bottom: solid 1px #E5E5E5;height: 28px;line-height: 28px;background: url(./template/dean_glider_141025/deancss/qq.png) left center  no-repeat;}
+.deandenglu{margin-top: 6px;margin-left: 10px;margin-right: 8px;border-bottom: solid 1px #E5E5E5;height: 28px;line-height: 28px;background: url(./template/dean_glider_141025/deancss/denglu.png) left center  no-repeat;}
+.deanzhuce{margin-top: 6px;margin-left: 10px;margin-right: 8px;border-bottom: solid 1px #E5E5E5;height: 28px;line-height: 28px;background: url(./template/dean_glider_141025/deancss/zhuce.png) left center  no-repeat;}
+    </style>
+
+</script>
+
+    	 <div class="deandl">
+                        
+                        </a>
+                      
+                        	
+                                <class="deandenglu"><a href="member.php?mod=logging&amp;action=login" onclick="showWindow('login', this.href)">Login</a>
+                                <class="deanzhuce"><a href="member.php?mod=register">Register</a>
+                            
+                       
+                    </div>
+                    <script type="text/javascript">
+jq(function(){
+jq(".deandl").hover(function(){
+jq(".deanul",this).show();
+});
+jq(".deandl").mouseleave(function(){
+jq(".deanul",this).hide();
+});
+});
+</script>
+         </ul>
+</div>                        
+                    </div>
+</div>
+                <div class="clear"></div>
+</div>
+</div>
+
+<div id="qmenu_menu" class="p_pop blk" style="display: none;">
+<div class="ptm pbw hm">
+请 <a href="javascript:;" class="xi2" onclick="lsSubmit()"><strong>登录</strong></a> 后使用快捷导航<br />没有帐号？<a href="member.php?mod=register" class="xi2 xw1">立即注册</a>
+</div>
+<div id="fjump_menu" class="btda"></div></div><div id="hd">
+        	<div class="deanheader">
+            <div id="deanbottom">
+            	<div class="w1200">
+                    <div class="deanlogo"><h2><a href="./" title="Base-Fx 厦门"><img src="template/dean_glider_141025/deancss/logo.png" alt="Base-Fx 厦门" border="0" /></a></h2></div>
+                    <div class="deannav">
+                                           <ul></ul>
+                    </div>
+                    <div class="deansearch"><div id="scbar" class="cl">
+<form id="scbar_form" method="post" autocomplete="off" onsubmit="searchFocus($('scbar_txt'))" action="search.php?searchsubmit=yes" target="_blank">
+<input type="hidden" name="mod" id="scbar_mod" value="search" />
+<input type="hidden" name="formhash" value="c4099fb7" />
+<input type="hidden" name="srchtype" value="title" />
+<input type="hidden" name="srhfid" value="" />
+<input type="hidden" name="srhlocality" value="forum::index" />
+<table cellspacing="0" cellpadding="0">
+<tr>
+
+<td><input type="text" name="srchtxt" id="scbar_txt" value="请输入搜索内容" autocomplete="off" x-webkit-speech speech /></td>
+                <td class="scbar_type_td"><a href="javascript:;" id="scbar_type" class="xg1" onclick="showMenu(this.id)" hidefocus="true">搜索</a></td>
+<td><button type="submit" name="searchsubmit" id="scbar_btn" sc="1" class="pn pnc" value="true">&nbsp;&nbsp;</button></td>
+</tr>
+</table>
+</form>
+</div>
+<ul id="scbar_type_menu" class="p_pop" style="display: none;"><li><a href="javascript:;" rel="article">文章</a></li><li><a href="javascript:;" rel="forum" class="curtype">帖子</a></li><li><a href="javascript:;" rel="user">用户</a></li></ul>
+<script type="text/javascript">
+initSearchmenu('scbar', '');
+</script>
+</div>
+                    
+                    <div class="clear"></div>
+                </div>
+                <script type="text/javascript" src='template/dean_glider_141025/deancss/nv.js'></script>
+
+            </div>
+        
+    </div>
+<div class="wp">
+<div class="hdc cl">
+
+
+
+</div>
+
+
+<div class="p_pop h_pop" id="mn_userapp_menu" style="display: none"></div><div id="mu" class="cl">
+</div></div>
+</div>
+
+
+<div id="wp" class="wp">
+<div class="deanluntanleft w875">
+<div id="pt" class="bm cl">
+<div class="z">
+ <a href="./" class="nvhm" title="首页"></a><em>&raquo;</em><a href="forum.php"></a></div>
+<div class="z"></div>
+</div>
+
+
+
+<style id="diy_style" type="text/css">#tab277mIU {  border:#000000 none !important;margin-bottom:8px !important;}#portal_block_324 {  margin-bottom:8px !important;}#portal_block_326 {  margin-bottom:8px !important;}#portal_block_344 {  background-color:#333333 !important;background-image:none !important;}</style>
+
+<div class="wp">
+<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+</div>
+
+<div id="ct" class="wp cl">
+<div id="chart" class="bm bw0 cl">
+<p class="chart z">今日: <em>0</em><span class="pipe">|</span>昨日: <em>0</em><span class="pipe">|</span>帖子: <em>91</em><span class="pipe">|</span>会员: <em>52</em><span class="pipe">|</span>欢迎新会员: <em><a href="home.php?mod=space&amp;username=adm_liuyh" target="_blank" class="xi2">adm_liuyh</a></em></p>
+<div class="y">
+<a href="forum.php?mod=guide&amp;view=new" title="最新回复" class="xi2">最新回复</a></div>
+</div>
+<!--[diy=diy_chart]--><div id="diy_chart" class="area"><div id="frameL758Ok" class="frame move-span cl frame-1"><div id="frameL758Ok_left" class="column frame-1-c"><div id="frameL758Ok_left_temp" class="move-span temp"></div><div id="portal_block_344" class="block move-span"><div id="portal_block_344_content" class="dxb_bc"><div class="module cl slidebox">
+<ul class="slideshow"><li style="width: 875px; height: 400px;"><a href="forum.php?mod=viewthread&tid=54" target="_blank"><img src="data/attachment/block/86/866ee211eb9a8de04d5d796df03c7cf2.jpg" width="875" height="400" /></a><span class="title">Base Movie-单身汪的解放日</span></li><li style="width: 875px; height: 400px;"><a href="forum.php?mod=viewthread&tid=55" target="_blank"><img src="data/attachment/block/2e/2ea8a241ba98f3f8a28d4b98ffb20ab1.jpg" width="875" height="400" /></a><span class="title">Base News 27发布</span></li><li style="width: 875px; height: 400px;"><a href="forum.php?mod=viewthread&tid=53" target="_blank"><img src="data/attachment/block/b5/b50d7c97351b88f6b1548de9f5d3fb55.jpg" width="875" height="400" /></a><span class="title">【Base Movie 】一起看电影</span></li><li style="width: 875px; height: 400px;"><a href="forum.php?mod=viewthread&tid=52" target="_blank"><img src="data/attachment/block/23/23fb60e06a97b340566c46666f296989.jpg" width="875" height="400" /></a><span class="title">Base movie _11.7_《明日世界》</span></li><li style="width: 875px; height: 400px;"><a href="forum.php?mod=viewthread&tid=50" target="_blank"><img src="data/attachment/block/71/71a951034eb60e971c32ebeb0fca0d95.jpg" width="875" height="400" /></a><span class="title">Halloween Party_万圣节搞怪小趴</span></li><li style="width: 875px; height: 400px;"><a href="forum.php?mod=viewthread&tid=48" target="_blank"><img src="data/attachment/block/4c/4cc3eedf219589970f438506b041c487.jpg" width="875" height="400" /></a><span class="title">秋季养生</span></li><li style="width: 875px; height: 400px;"><a href="forum.php?mod=viewthread&tid=19" target="_blank"><img src="data/attachment/block/ed/edcc1283e45c1ff53ec449d6081254a6.jpg" width="875" height="400" /></a><span class="title">详解工业光魔动作捕捉神器iMoCap</span></li><li style="width: 875px; height: 400px;"><a href="forum.php?mod=viewthread&tid=21" target="_blank"><img src="data/attachment/block/5d/5daa10bc5723bb6640d6327264ea05d8.jpg" width="875" height="400" /></a><span class="title">恐怖谷理论（The uncanny valley）</span></li><li style="width: 875px; height: 400px;"><a href="forum.php?mod=viewthread&tid=22" target="_blank"><img src="data/attachment/block/91/91f6eece349e8988649fd2a6269e1d18.jpg" width="875" height="400" /></a><span class="title">Base News 26发布</span></li><li style="width: 875px; height: 400px;"><a href="forum.php?mod=viewthread&tid=18" target="_blank"><img src="data/attachment/forum/201509/14/181027veuvu7alua7kvuvv.gif" width="875" height="400" /></a><span class="title">猫头鹰：一种可以和喵星人媲美呆萌的生物~</span></li></ul>
+</div>
+<script type="text/javascript">
+runslideshow();
+</script></div></div></div></div></div><!--[/diy]-->
+    
+    <div class="clear"></div>
+<div class="mn">
+
+
+<div class="fl bm">
+<div class="bm bmw  flg cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_39_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_39');" />
+</span>
+<h2><a href="forum.php?gid=39" style="color: #999999;">Baser Life</a></h2>
+</div>
+<div id="category_39" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_g" width="49.9%">
+<div class="fl_icn_g" style="width: 141px;">
+<a href="forum.php?mod=forumdisplay&fid=54"><img src="data/attachment/common/a6/common_54_icon.jpg" align="left" alt="" /></a></div>
+<dl style="margin-left: 141px;">
+<dt><a href="forum.php?mod=forumdisplay&fid=54" style="color: #79090a;">公告区</a></dt>
+<dd><em>主题: 9</em>, <em>帖数: 15</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=56&amp;goto=lastpost#lastpost" class="xi2">Base FX 厦门 公司消防知识培训 ...</a> <cite><span title="2015-11-12 15:09">6&nbsp;天前</span> <a href="home.php?mod=space&username=admin">admin</a></cite>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="49.9%">
+<div class="fl_icn_g" style="width: 141px;">
+<a href="forum.php?mod=forumdisplay&fid=49"><img src="data/attachment/common/f4/common_49_icon.png" align="left" alt="" /></a></div>
+<dl style="margin-left: 141px;">
+<dt><a href="forum.php?mod=forumdisplay&fid=49" style="color: #79090a;">灌水区</a></dt>
+<dd><em>主题: 14</em>, <em>帖数: 33</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=54&amp;goto=lastpost#lastpost" class="xi2">Base Movie-单身汪的解放日 ...</a> <cite><span title="2015-11-12 15:09">6&nbsp;天前</span> <a href="home.php?mod=space&username=itd_hexing">itd_hexing</a></cite>
+</dd>
+</dl>
+</td>
+</tr>
+<tr class="fl_row">
+<td class="fl_g" width="49.9%">
+<div class="fl_icn_g" style="width: 141px;">
+<a href="forum.php?mod=forumdisplay&fid=55"><img src="data/attachment/common/b5/common_55_icon.jpg" align="left" alt="" /></a></div>
+<dl style="margin-left: 141px;">
+<dt><a href="forum.php?mod=forumdisplay&fid=55" style="color: #79090a;">技术不宅</a></dt>
+<dd><em>主题: 8</em>, <em>帖数: 25</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=34&amp;goto=lastpost#lastpost" class="xi2">马良的神笔面世了！你最想画个什 ...</a> <cite>2015-9-22 09:46 <a href="home.php?mod=space&username=dpr_wujf">dpr_wujf</a></cite>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="49.9%">
+<div class="fl_icn_g" style="width: 141px;">
+<a href="forum.php?mod=forumdisplay&fid=40"><img src="data/attachment/common/d6/common_40_icon.png" align="left" alt="" /></a></div>
+<dl style="margin-left: 141px;">
+<dt><a href="forum.php?mod=forumdisplay&fid=40" style="color: #79090a;">吃喝玩乐</a></dt>
+<dd><em>主题: 2</em>, <em>帖数: 5</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=48&amp;goto=lastpost#lastpost" class="xi2">秋季养生</a> <cite>2015-10-29 16:52 <a href="home.php?mod=space&username=itd_hexing">itd_hexing</a></cite>
+</dd>
+</dl>
+</td>
+</tr>
+<tr class="fl_row">
+<td class="fl_g" width="49.9%">
+<div class="fl_icn_g" style="width: 141px;">
+<a href="forum.php?mod=forumdisplay&fid=41"><img src="data/attachment/common/34/common_41_icon.png" align="left" alt="" /></a></div>
+<dl style="margin-left: 141px;">
+<dt><a href="forum.php?mod=forumdisplay&fid=41" style="color: #79090a;">兴趣爱好</a></dt>
+<dd><em>主题: 4</em>, <em>帖数: 11</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=51&amp;goto=lastpost#lastpost" class="xi2">12星座11月星座运程：也许你最抱 ...</a> <cite><span title="2015-11-12 13:43">6&nbsp;天前</span> <a href="home.php?mod=space&username=hrm_luoms">hrm_luoms</a></cite>
+</dd>
+</dl>
+</td>
+<td class="fl_g" width="49.9%">
+<div class="fl_icn_g" style="width: 141px;">
+<a href="forum.php?mod=forumdisplay&fid=42"><img src="data/attachment/common/a1/common_42_icon.png" align="left" alt="" /></a></div>
+<dl style="margin-left: 141px;">
+<dt><a href="forum.php?mod=forumdisplay&fid=42" style="color: #79090a;">跳蚤市场</a></dt>
+<dd><em>主题: 1</em>, <em>帖数: 2</em></dd><dd>
+<a href="forum.php?mod=redirect&amp;tid=33&amp;goto=lastpost#lastpost" class="xi2">土豪的坐骑：霸王龙自行车 售价2 ...</a> <cite>2015-9-22 09:37 <a href="home.php?mod=space&username=dpr_qinzy">dpr_qinzy</a></cite>
+</dd>
+</dl>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+
+<div class="wp mtn">
+<!--[diy=diy3]--><div id="diy3" class="area"></div><!--[/diy]-->
+</div>
+
+<div id="online" class="bm oll">
+<div class="bm_h">
+<span class="o"><a href="forum.php?showoldetails=no#online" title="收起/展开"><img src="static/image/common/collapsed_no.gif" alt="收起/展开" /></a></span>
+<h3>
+<strong><a href="home.php?mod=space&amp;do=friend&amp;view=online&amp;type=member">在线会员</a></strong>
+<span class="xs1">- <strong>2</strong> 人在线
+- <strong>0</strong> 会员(<strong>0</strong> 隐身),
+<strong>2</strong> 位游客
+- 最高记录是 <strong>15</strong> 于 <strong>2015-9-14</strong>.</span>
+</h3>
+</div>
+<dl id="onlinelist" class="bm_c">
+<dt class="ptm pbm bbda"></dt>
+<dd class="ptm pbm">
+<ul class="cl">
+<li style="width: auto">当前只有游客或隐身会员在线</li>
+</ul>
+</dd>
+</dl>
+</div>
+
+</div>
+
+</div>
+</div>
+<div class="deanluntanright w300">
+<div class="deanhuandeng">
+    	<!--[diy=deanhuandeng]--><div id="deanhuandeng" class="area"></div><!--[/diy]-->
+    </div>
+    <div class="clear"></div>
+    <div class="deanpaihang" style="margin-top:23px">
+    	<div class="deantitle"  style="background:#2e2725;">
+        	<h2>Announcement</h2>
+            <a href="#">More</a>
+            <div class="clear"></div>
+        </div>
+        <div class="deanrl">
+            <ul class="deanrlc bgfff">
+                <!--[diy=diy12]--><div id="diy12" class="area"><div id="frameDNY6gN" class="frame move-span cl frame-1"><div id="frameDNY6gN_left" class="column frame-1-c"><div id="frameDNY6gN_left_temp" class="move-span temp"></div><div id="portal_block_345" class="block move-span"><div id="portal_block_345_content" class="dxb_bc"><div class="module cl xld"><dl class="cl">
+	<dt><a href="forum.php?mod=viewthread&tid=56" title="Base FX 厦门 公司消防知识培训" target="_blank">Base FX 厦门 公司消防知识培训</a></dt>
+	<dd>
+消防关乎生命，防火防灾，从我做起！
+ADM整理一份消防培训知识供大家一起学习！
+</dd>
+</dl><dl class="cl">
+	<dt><a href="forum.php?mod=viewthread&tid=55" title="Base News 27发布" target="_blank">Base News 27发布</a></dt>
+	<dd>
+Base News 27发布
+</dd>
+</dl><dl class="cl">
+	<dt><a href="forum.php?mod=viewthread&tid=53" title="【Base Movie 】一起看电影" target="_blank">【Base Movie 】一起看电影</a></dt>
+	<dd>
+Dear all,
+      
+    
+       一、活动主题：Base movie _一起看电影
+</dd>
+</dl></div></div></div></div></div></div><!--[/diy]-->
+                
+            </ul>
+        </div>
+        <script type="text/javascript">
+        jq(function(){
+        
+            jq(".deanrl li").bind("mouseenter",weekly_ani).bind("mouseleave",function(){
+                clearTimeout(
+                    jq(this).data("setTime")
+                );
+            });
+            
+            function weekly_ani(e){
+                var me=jq(e.target).closest("li");
+                if(me.hasClass("current")) 
+                return;
+                var orili=me.parent().find(".current");
+                jq(this).data("setTime",setTimeout(function(){
+                    weekly_move(me,orili,125,44)
+                },125));
+            }
+            
+            function weekly_move(me,orili,h,h2){
+                me.addClass("current");
+                jq(".deanrl li").unbind("mouseenter",weekly_ani);
+                setTimeout(function(){
+                    var cur_h=me.height();
+                    if(cur_h < h-2){
+                        var cur_orih=orili.height();
+                        var dh=Math.round((h-cur_h)/2.5);
+                        me.css("height",cur_h+dh);
+                        orili.css("height",cur_orih-dh);
+                        setTimeout(arguments.callee,25);
+                    }else{
+                        me.addClass("current").css("height",h);
+                        orili.css("height",h2);
+                        jq(".deanrl li").bind("mouseenter",weekly_ani);
+                        orili.removeClass("current");
+                    }
+                },25);
+            }
+            
+            jq(".deanrl").find("li:first").addClass("current").animate({height:125}, 300);
+            
+        });
+        </script>
+    </div>
+    <div class="clear"></div>
+    
+    	<div class="deantitle" style="background:#333333;">
+            <div class="clear"></div>
+        </div>
+        <ul class="bgfff">
+        	<!--[diy=clear]--><div id="clear" class="area"><div id="framehJcVOm" class="frame move-span cl frame-1"><div id="framehJcVOm_left" class="column frame-1-c"><div id="framehJcVOm_left_temp" class="move-span temp"></div><div id="portal_block_318" class="block move-span"><div id="portal_block_318_content" class="dxb_bc"></div></div></div></div><div id="tab277mIU" class="news_tab frame-tab move-span cl"><div id="tab277mIU_title" class="tab-title title column cl" switchtype="click"><div id="portal_block_324" class="block move-span"><div class="blocktitle title"><span style="float:;margin-left:px;font-size:;color: !important;" class="titletext">精</span></div><div id="portal_block_324_content" class="dxb_bc"><div class="module cl xl xl1">
+<ul><li><em><a href="home.php?mod=space&uid=1" target="_blank">admin</a></em><a href="forum.php?mod=viewthread&tid=56" title="Base FX 厦门 公司消防知识培训" target="_blank">Base FX 厦门 公司消防知识培训</a></li><li><em><a href="home.php?mod=space&uid=54" target="_blank">hrm_luoms</a></em><a href="forum.php?mod=viewthread&tid=54" title="Base Movie-单身汪的解放日" target="_blank">Base Movie-单身汪的解放日</a></li><li><em><a href="home.php?mod=space&uid=54" target="_blank">hrm_luoms</a></em><a href="forum.php?mod=viewthread&tid=55" title="Base News 27发布" target="_blank">Base News 27发布</a></li><li><em><a href="home.php?mod=space&uid=54" target="_blank">hrm_luoms</a></em><a href="forum.php?mod=viewthread&tid=51" title="12星座11月星座运程：也许你最抱歉的人就是自己" target="_blank">12星座11月星座运程：也许你最抱歉的人就是</a></li><li><em><a href="home.php?mod=space&uid=54" target="_blank">hrm_luoms</a></em><a href="forum.php?mod=viewthread&tid=53" title="【Base Movie 】一起看电影" target="_blank">【Base Movie 】一起看电影</a></li><li><em><a href="home.php?mod=space&uid=54" target="_blank">hrm_luoms</a></em><a href="forum.php?mod=viewthread&tid=52" title="Base movie _11.7_《明日世界》" target="_blank">Base movie _11.7_《明日世界》</a></li><li><em><a href="home.php?mod=space&uid=54" target="_blank">hrm_luoms</a></em><a href="forum.php?mod=viewthread&tid=50" title="Halloween Party_万圣节搞怪小趴" target="_blank">Halloween Party_万圣节搞怪小趴</a></li><li><em><a href="home.php?mod=space&uid=52" target="_blank">hr_Nancy</a></em><a href="forum.php?mod=viewthread&tid=42" title="Base 人才推荐激励" target="_blank">Base 人才推荐激励</a></li><li><em><a href="home.php?mod=space&uid=53" target="_blank">adm-wangqy</a></em><a href="forum.php?mod=viewthread&tid=48" title="秋季养生" target="_blank">秋季养生</a></li><li><em><a href="home.php?mod=space&uid=51" target="_blank">adm_liunn</a></em><a href="forum.php?mod=viewthread&tid=49" title="消防演习通知" target="_blank">消防演习通知</a></li></ul>
+</div></div></div><div id="portal_block_325" class="block move-span"><div class="blocktitle title"><span style="float:;margin-left:px;font-size:;color: !important;" class="titletext">热</span></div><div id="portal_block_325_content" class="dxb_bc"><div class="module cl xl xl1">
+<ul><li><em>4</em><a href="forum.php?mod=viewthread&tid=19" title="详解工业光魔动作捕捉神器iMoCap" target="_blank">详解工业光魔动作捕捉神器iMoCap</a></li><li><em>3</em><a href="forum.php?mod=viewthread&tid=16" title="[小窍门]关于如何上传外网图片，以及好看的头像" target="_blank">[小窍门]关于如何上传外网图片，以及好看的</a></li><li><em>3</em><a href="forum.php?mod=viewthread&tid=20" title="盘点电影中黑科技如何变现实" target="_blank">盘点电影中黑科技如何变现实</a></li><li><em>3</em><a href="forum.php?mod=viewthread&tid=21" title="恐怖谷理论（The uncanny valley）" target="_blank">恐怖谷理论（The uncanny valley）</a></li><li><em>3</em><a href="forum.php?mod=viewthread&tid=23" title="超级逗比画面！生活中的“复仇者联盟”是啥样？" target="_blank">超级逗比画面！生活中的“复仇者联盟”是啥</a></li><li><em>3</em><a href="forum.php?mod=viewthread&tid=24" title="史上最炫的英文，超级英雄版的26个字母！" target="_blank">史上最炫的英文，超级英雄版的26个字母！</a></li><li><em>2</em><a href="forum.php?mod=viewthread&tid=13" title="Not everything is meant to be. But everything is worth a try." target="_blank">Not everything is meant to be. But every</a></li><li><em>2</em><a href="forum.php?mod=viewthread&tid=15" title="test" target="_blank">test</a></li><li><em>2</em><a href="forum.php?mod=viewthread&tid=17" title="test mov" target="_blank">test mov</a></li><li><em>2</em><a href="forum.php?mod=viewthread&tid=27" title="超级实用！如何正确的在家里挂上一幅画" target="_blank">超级实用！如何正确的在家里挂上一幅画</a></li></ul>
+</div></div></div><div id="portal_block_326" class="block move-span"><div class="blocktitle title"><span style="float:;margin-left:px;font-size:;color: !important;" class="titletext">新</span></div><div id="portal_block_326_content" class="dxb_bc"><div class="module cl xl xl1">
+<ul><li><em>2015-11-12</em><a href="forum.php?mod=viewthread&tid=56" title="Base FX 厦门 公司消防知识培训" target="_blank">Base FX 厦门 公司消防知识培训</a></li><li><em>2015-11-12</em><a href="forum.php?mod=viewthread&tid=54" title="Base Movie-单身汪的解放日" target="_blank">Base Movie-单身汪的解放日</a></li><li><em>2015-11-12</em><a href="forum.php?mod=viewthread&tid=55" title="Base News 27发布" target="_blank">Base News 27发布</a></li><li><em>2015-11-04</em><a href="forum.php?mod=viewthread&tid=51" title="12星座11月星座运程：也许你最抱歉的人就是自己" target="_blank">12星座11月星座运程：也许你最抱歉的人就是</a></li><li><em>2015-11-11</em><a href="forum.php?mod=viewthread&tid=53" title="【Base Movie 】一起看电影" target="_blank">【Base Movie 】一起看电影</a></li><li><em>2015-11-05</em><a href="forum.php?mod=viewthread&tid=52" title="Base movie _11.7_《明日世界》" target="_blank">Base movie _11.7_《明日世界》</a></li><li><em>2015-11-02</em><a href="forum.php?mod=viewthread&tid=50" title="Halloween Party_万圣节搞怪小趴" target="_blank">Halloween Party_万圣节搞怪小趴</a></li><li><em>2015-10-23</em><a href="forum.php?mod=viewthread&tid=42" title="Base 人才推荐激励" target="_blank">Base 人才推荐激励</a></li><li><em>2015-10-29</em><a href="forum.php?mod=viewthread&tid=48" title="秋季养生" target="_blank">秋季养生</a></li><li><em>2015-10-29</em><a href="forum.php?mod=viewthread&tid=49" title="消防演习通知" target="_blank">消防演习通知</a></li></ul>
+</div></div></div><div id="portal_block_327" class="block move-span"><div class="blocktitle title"><span style="float:;margin-left:px;font-size:;color: !important;" class="titletext">兴</span></div><div id="portal_block_327_content" class="dxb_bc"><div class="module cl xl xl1">
+<ul><li><em>2015-11-04</em><a href="forum.php?mod=viewthread&tid=51" title="12星座11月星座运程：也许你最抱歉的人就是自己" target="_blank">12星座11月星座运程：也许你最抱歉的人就是</a></li><li><em>2015-09-14</em><a href="forum.php?mod=viewthread&tid=13" title="Not everything is meant to be. But everything is worth a try." target="_blank">Not everything is meant to be. But every</a></li><li><em>2015-09-18</em><a href="forum.php?mod=viewthread&tid=28" title="公会收人" target="_blank">公会收人</a></li></ul>
+</div></div></div><div id="portal_block_328" class="block move-span"><div class="blocktitle title"><span style="float:;margin-left:px;font-size:;color: !important;" class="titletext">蚤</span></div><div id="portal_block_328_content" class="dxb_bc"><div class="module cl xl xl1">
+<ul><li><em>2015-09-22</em><a href="forum.php?mod=viewthread&tid=33" title="土豪的坐骑：霸王龙自行车 售价2000美元" target="_blank">土豪的坐骑：霸王龙自行车 售价2000美元</a></li></ul>
+</div></div></div><div id="portal_block_329" class="block move-span"><div class="blocktitle title"><span style="float:;margin-left:px;font-size:;color: !important;" class="titletext">技</span></div><div id="portal_block_329_content" class="dxb_bc"><div class="module cl xl xl1">
+<ul><li><em>2015-09-22</em><a href="forum.php?mod=viewthread&tid=34" title="马良的神笔面世了！你最想画个什么呢？" target="_blank">马良的神笔面世了！你最想画个什么呢？</a></li><li><em>2015-09-21</em><a href="forum.php?mod=viewthread&tid=32" title="小黄人虐死脸盲症 “大百科”教你来分辨" target="_blank">小黄人虐死脸盲症 “大百科”教你来分辨</a></li><li><em>2015-09-18</em><a href="forum.php?mod=viewthread&tid=27" title="超级实用！如何正确的在家里挂上一幅画" target="_blank">超级实用！如何正确的在家里挂上一幅画</a></li><li><em>2015-09-18</em><a href="forum.php?mod=viewthread&tid=26" title="宏碁高端34英寸曲面显示器 除了价格我都满意！" target="_blank">宏碁高端34英寸曲面显示器 除了价格我都满</a></li><li><em>2015-09-14</em><a href="forum.php?mod=viewthread&tid=19" title="详解工业光魔动作捕捉神器iMoCap" target="_blank">详解工业光魔动作捕捉神器iMoCap</a></li><li><em>2015-09-15</em><a href="forum.php?mod=viewthread&tid=21" title="恐怖谷理论（The uncanny valley）" target="_blank">恐怖谷理论（The uncanny valley）</a></li><li><em>2015-09-15</em><a href="forum.php?mod=viewthread&tid=20" title="盘点电影中黑科技如何变现实" target="_blank">盘点电影中黑科技如何变现实</a></li><li><em>2015-09-14</em><a href="forum.php?mod=viewthread&tid=16" title="[小窍门]关于如何上传外网图片，以及好看的头像" target="_blank">[小窍门]关于如何上传外网图片，以及好看的</a></li></ul>
+</div></div></div><div id="portal_block_330" class="news_tab block move-span"><div class="blocktitle title"><span style="float:;margin-left:px;font-size:;color: !important;" class="titletext">吃</span></div><div id="portal_block_330_content" class="dxb_bc"><div class="module cl xl xl1">
+<ul><li><em>2015-10-29</em><a href="forum.php?mod=viewthread&tid=48" title="秋季养生" target="_blank">秋季养生</a></li><li><em>2015-09-21</em><a href="forum.php?mod=viewthread&tid=31" title="大家分享一些好吃的外卖店啦~" target="_blank">大家分享一些好吃的外卖店啦~</a></li></ul>
+</div></div></div></div><div id="tab277mIU_content" class="tb-c"></div><script type="text/javascript">initTab("tab277mIU","click");</script></div></div><!--[/diy]-->
+        </ul>
+    
+    <div class="deanads">
+        <!--<div class="deanadst">Advertisement</div>
+        <div class="example1">
+            <ul>
+                <li><a href="#"target><div id="diy7" class="area"></div></a></li>
+                <li><a href="#"target><div id="diy8" class="area"></div></a></li>
+                <li><a href="#"target><div id="diy9" class="area"></div></a></li>
+            </ul>
+            <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+               
+            </ol>-->
+             <script type="text/javascript">
+                jq(function(){
+                    
+                    jq(".example1").luara({width:"300",height:"250",interval:3000,selected:"seleted",deriction:"top"});
+        
+                });
+            </script>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<script>fixed_top_nv();</script>	</div>
+    <div class="deanfooter">
+    	<div class="w1200">
+        	<div class="deanftl">
+            	<h4>Website information</h4>
+                <p>
+<a href="archiver/" >Archiver</a><span class="pipe">|</span><a href="forum.php?mobile=yes" >手机版</a><span class="pipe">|</span><a href="forum.php?mod=misc&action=showdarkroom" >小黑屋</a><span class="pipe">|</span><strong><a href="base-fx.com.bbs" target="_blank">base-fx.com</a></strong>
+&nbsp;<a href="http://discuz.qq.com/service/security" target="_blank" title="防水墙保卫网站远离侵害"><img src="static/image/common/security.png"></a></p>
+<p class="xs0">
+GMT+8, 2015-11-18 15:41<span id="debuginfo">
+, Processed in 0.071543 second(s), 12 queries
+.
+</span>
+</p>
+            <p>Powered by <strong><a href="http://www.discuz.net" target="_blank">discuz</a></strong> <em>X3.2</em>&nbsp;Templated by <a href="http://www.1moban.cn" target="_blank">Base FX</a></p>
+<p class="xs0">&copy; 2001-2013 </p>
+            </div>
+            <div class="deanftr">
+            	<div class="deanftlogo"><img src="template/dean_glider_141025/deancss/logoft.png" /></div>
+                <ul>
+                    <li><a href="http://www.jiaoyisou.com"><img src="template/dean_glider_141025/deancss/letter.png" / title="email"></a></li>
+                    <li><a href="http://www.jiaoyisou.com"><img src="template/dean_glider_141025/deancss/rss.png"/ title="rss"></a></li>
+                    <li><a href="http://www.jiaoyisou.com"><img src="template/dean_glider_141025/deancss/facebook.png" / title="facebook"></a></li>
+                    <li><a href="http://www.jiaoyisou.com"><img src="template/dean_glider_141025/deancss/twitter.png" / title="twitter"></a></li>
+                    <li><a href="http://www.jiaoyisou.com"><img src="template/dean_glider_141025/deancss/inno.png" / title="inno"></a></li>
+                    <div class="clear"></div>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="clear"></div>
+        </div>
+    </div>
+<div id="ft" style="margin:0;padding:0; height:0;"></div>
+<script src="home.php?mod=misc&ac=sendmail&rand=1447832478" type="text/javascript"></script>
+<div id="scrolltop">
+<span hidefocus="true"><a title="返回顶部" onclick="window.scrollTo('0','0')" class="scrolltopa" ><b>返回顶部</b></a></span>
+</div>
+<script type="text/javascript">_attachEvent(window, 'scroll', function () { showTopLink(); });checkBlind();</script>
+			<div id="discuz_tips" style="display:none;"></div>
+			<script type="text/javascript">
+				var tipsinfo = '|X3.2|0.6||0||0|7|1447832478||2';
+			</script>
+			<script src="http://discuz.gtimg.cn/cloud/scripts/discuz_tips.js?v=1" type="text/javascript" charset="UTF-8"></script></body>
+</html>

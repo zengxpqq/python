@@ -1,0 +1,53 @@
+<!DOCUTYPE html>
+<html>
+  <head>
+  	<meta charset = "utf-8">
+  	<title>{% block title %} 时事新闻 {% endblock title %} - learn </title>
+
+  	{% block css %}
+      <style type="text/css">
+        #base_a:hover{background-color: #DC143C}
+        #base_a:link{color: white}
+        #base_a:visited{color: white;}
+        #base_a{font-size: 20}
+        li{display:inline;}
+
+        a{text-decoration: none;}
+      </style>
+  	{% endblock css %}
+    
+    {% block js %}
+
+    {% endblock js %}
+
+  </head>
+  <body>
+    <br>
+    <div style="float:left;">
+      <img src="../../../static/images/base-icon.png">
+    </div>
+    <div style="float:right;">
+      <form action="/search/" method="get">
+        <input type="text" name="search" placeholder="新闻类型">
+        <input type="submit" value="提交">
+      </form>
+    </div>
+<br>
+    <div style="background-color:#000080;width:100%;height:30px">
+    	<ul style="text-align: center;margin-top:7px">
+        <li><a id='base_a' href="{% url 'index' %}">首页</a></li>
+    		{% for column in nav_display_columns %}
+    			<li>
+    				<a id='base_a' href="{{ column.get_absolute_url }}" style="">{{ column.name }}</a>
+    			</li>
+    		{% endfor %}
+    	</ul>
+    </div>
+
+  	{% block content %}
+  		<h1>apperence</h1>
+  	{% endblock content %}
+
+  	{% include "button.html" %}
+  </body>
+</html>

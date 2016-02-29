@@ -1,0 +1,128 @@
+# -*- coding: utf-8 -*-
+
+#######################################################################
+############################### Introduction ##########################
+#######################################################################
+
+'''
+Base Message
+
+This module defines functions and classes to send instance messages.
+Here we use jabber module as the base api to send message.
+'''
+
+__version__ = '1.0.0'
+
+
+#######################################################################
+############################### Import ################################
+#######################################################################
+
+import sys
+
+
+import bthirdparty.jabber as jabber
+
+
+#######################################################################
+############################### Variables #############################
+#######################################################################
+
+DEFAULT_ACCOUNT = 'publish'
+DEFAULT_SERVER = 'chat.base-fx.com'    #'172.16.2.4'
+DEFAULT_DOMAIN = '@chat.base-fx.com'
+DEFAULT_RESOURCE = 'default'
+
+# Common used accounts
+_accounts = {
+    'publish': 'publish',
+    'vacation': 'vacation',
+    'note': 'notenote',
+    'express': 'express',
+    'exception': 'exception',
+    }
+
+
+#######################################################################
+############################### Functions #############################
+#######################################################################
+
+def send(recipients, content, account=None, password=None,
+         server=None, domain=None, resource=None, debug=None):
+    '''
+    Sends given message to given persons through instance message software.
+    Arguments:
+        recipients: can be a string like "jinxi,zhangzhu", or a list os users
+        content: message content
+        account: default account is "publish"
+        password: we record most of the common used account and passwords,
+                  so you can only supply an account name,
+                  and do not need to go find the password.
+        server: default value is "172.16.2.4"
+        domain: default value is "@fsv.com"
+        resource: default value is "default"
+        debug: two options "init" and "always", default value is "init"
+    '''
+    if account == None:
+        account = DEFAULT_ACCOUNT
+
+    if password == None:
+        if _accounts.has_key(account):
+            password = _accounts[account]
+
+    if server == None:
+        server = DEFAULT_SERVER
+
+    if domain == None:
+        domain = DEFAULT_DOMAIN
+
+    if resource == None:
+        resource = DEFAULT_RESOURCE
+
+    if debug == None:
+        #debug = jabber.DBG_INIT
+        debug = []
+
+    if type(recipients) in (unicode, str):
+        recipients = recipients.strip().replace(' ','').split(',')
+
+    con = jabber.Client(host=server, debug=debug, log=sys.stderr)
+    con.connect()
+    con.auth(account, password, resource)
+
+    try:
+        content = content.decode('utf-8')
+    except:
+        pass
+
+    for user in recipients:
+        msg = jabber.Message(user+domain, content)
+        msg.setType('chat')
+        con.send(msg)
+
+
+#######################################################################
+############################### Command Line ##########################
+#######################################################################
+
+if __name__ == '__main__':
+    import optparse
+
+    usage = 'python bmessage.py [option]\n'
+    usage += 'Send instant messages to users.'
+    parser = optparse.OptionParser(usage=usage)
+    parser.add_option('-r', '--recipients', help='One or several users, like jinxi,zhangzhu.')
+    parser.add_option('-c', '--content', help='Message content.')
+    parser.add_option('-a', '--account', help='Default account is "publish"')
+    h = 'We record most of the common used account and passwords,'
+    h += 'so you can only supply an account name, and do not need to go find the password.'
+    parser.add_option('-p', '--password', help=h)
+    parser.add_option('-s', '--server', help='Default value is "172.16.2.4".')
+    parser.add_option('-d', '--domain', help='Default value is "@fsv.com".')
+    parser.add_option('-R', '--resource', help='Default value is "default".')
+    parser.add_option('-D', '--debug', help='Two options "init" and "always", default value is "init".')
+    (option, args) = parser.parse_args()
+
+    if option.recipients and option.content:
+        send(option.recipients, option.content, account=option.account, password=option.password,
+             server=option.server, domain=option.domain, resource=option.resource, debug=option.debug)

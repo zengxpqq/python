@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ column.name |safe }}
+{% endblock title %}
+
+
+{% block content %}
+<h2>{{ column.name | safe }}</h2>
+{{ column.intro | safe }} <br>
+栏目文章列表：
+<ul>
+    {% for article in column.article_set.all %}
+        <li>
+            <a href="{{ article.get_absolute_url }}">{{ article.title | safe }}</a><br><br>
+
+        </li>
+    {% endfor %}
+</ul>
+<!--
+{% load staticfiles %}
+<img src="{% static "images/light.jpg" %}" alt="lighthouse"/>
+
+<img src="../../static/images/light.jpg" alt="lighthouse"/>
+-->
+
+{% endblock content %}

@@ -1,0 +1,29 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#***********************************
+#
+# author: xiangpeng 
+# 
+# createtime: 2015-11-18 14:10:25 
+#
+# ***********************************
+
+print 'demo:'
+
+import urllib2
+import os.path
+
+current_path =  os.path.dirname(__file__)
+print 'current_path: ', current_path
+# urlopen(url, data, timeout) data访问URL时要传送的数据，默认为空None 
+# timeout设置超时时间,默认为socket.GLOBAL_DEFAULT_TIMEOUT
+# request = urllib2.Request("http://www.baidu.com")
+# response = urllib2.urlopen(request)
+# print response.read()
+response = urllib2.urlopen("http://bbs.xm.base-fx.com/forum.php")
+
+with open(current_path + "/demo.txt", 'a') as f:
+    f.write('爬虫内容:\n')
+    f.write(response.read())
+
+print 'OK'

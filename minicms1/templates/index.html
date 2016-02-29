@@ -1,0 +1,43 @@
+
+
+{% extends "base.html" %}
+
+{% block title %} 首页 {% endblock%}
+
+{% block content %}
+
+<h1 align='center'> 哇！！！ 有意思 </h1>
+
+<ul>
+
+	{% for column in home_display_columns %}
+		<li>
+			<a href="{{ column.get_absolute_url }}">{{ column.name }}</a>
+		</li>
+	{% endfor %}
+
+
+	{% for scolumn in searchcolumn %}
+		<li>
+			<a href="{{ scolumn.get_absolute_url }}">{{ scolumn.name }}</a> : 
+			{{ scolumn.intro | safe }}
+		</li>
+	{% endfor %}
+
+
+    {% for article in searcharticle.article_set.all %}
+        <li>1
+            <a href="{{ article.get_absolute_url }}">{{ article.title | safe }}</a><br>
+
+
+        </li>
+    {% endfor %}
+</ul>
+		
+</ul>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+{% endblock content %}
+
+
