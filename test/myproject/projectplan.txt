@@ -1,3 +1,0 @@
-1. 熟练使用qube api （/usr/local/pfx/qube/api/python/qb/__init__）
-   结合qube 实现__init__ 中的方法
-   所用时间： 三天
